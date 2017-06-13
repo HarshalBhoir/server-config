@@ -77,5 +77,10 @@ exit 1
 esac
 exit 0
 
+# http://www.surekhatech.com/blog/running-odoo-8-0-as-a-servi-2
+
 # change database owner
 # alter database old_database owner to odoo_user;
+# tail -f /var/log/odoo/odoo-server.log
+# Once the server started successfully then make this server start and stop automatically using below command.
+# sudo update-rc.d odoo_server defaults
